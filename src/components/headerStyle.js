@@ -10,7 +10,8 @@ export const HeaderContainer = styled.header`
 export const HeaderContainerContain = styled.div`
     display: flex;
     justify-content: space-between;
-    width: 1140px; 
+    align-items: center;
+    width: 1039px; 
 `
 
 export const ButtonConteiner = styled.div`
@@ -20,7 +21,7 @@ export const ButtonConteiner = styled.div`
 
 `
 
-export const HeaderButtons = styled.button`
+export const HeaderButtons = styled.a`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,4 +29,10 @@ export const HeaderButtons = styled.button`
     height: 22px;
     background-color: transparent;
     border: none;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--grey-1);
+    text-decoration: none;
+    cursor: pointer;
 `

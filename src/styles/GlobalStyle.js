@@ -14,6 +14,11 @@ body{
     background: var(--grey-0);
 }
 
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 0.1rem;
+}
+
 :root{
     --color-primary: #623CEA;
     --color-primary-50: #311E75;
@@ -32,4 +37,4 @@ body{
     --social-media-facebook: #506CCF;
     --social-media-linkedin: #0E76A8;
 }
-// END: ed8c6549bwf9`;
+`

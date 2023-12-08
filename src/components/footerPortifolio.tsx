@@ -7,7 +7,7 @@ import { FooterContainer, ContainerText, ContainerPhoto, Linktag, ContainerLinks
 
 export const FooterPortifolio = () => {
     return(
-        <FooterContainer>
+        <FooterContainer id="footerPart">
             <ContainerPhoto >
                 <img src="https://media.licdn.com/dms/image/D4D03AQEgGIISI5-9Hw/profile-displayphoto-shrink_800_800/0/1699884291700?e=1707350400&v=beta&t=ewGJx8dc8fRDLAHzIgWcoAnMCgsCwphtbVLykRcJutc"/>
                 <ContainerText >
