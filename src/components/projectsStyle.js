@@ -7,6 +7,9 @@ export const HeadContainerProject = styled.div`
     width: 272px;
     height: 75px;
     gap: 10px;
+    span{
+        color: red;
+    }
 `
 
 export const ProjectMainContainer = styled.div`
@@ -15,22 +18,25 @@ export const ProjectMainContainer = styled.div`
     justify-content: center;
     background-color: #0A0A0B;
     width: 100%;
-    height: 939px;
+    min-height: 939px;
+    padding: 0 1rem;
 `
 
 export const ProjectContainer = styled.div`
     display: flex;
     flex-direction: column;
-    width: 1030px;
-    height: 579px;
+    width: 100%;
+    max-width: 1030px;
+    min-height: 439px;
     gap: 22px;
 `
 
 export const UlcontainerProject = styled.ul`
     display: flex;
     flex-direction: row;
-    width: 1030px;
-    height: 579px;
+    width: 100%;
+    max-width: 1030px;
+    min-height: 579px;
     padding: 10px;
     gap: 22px;
     flex-wrap: wrap;
@@ -39,16 +45,18 @@ export const LiContainerProject = styled.li`
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 482px;
-    height: 226px; 
+    width: 100%;
+    max-width: 482px;
+    min-height: 226px; 
     gap: 26px;
 `
 export const ContainerLenguageTech = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 307px;
-    height: 24px;
+    width: 100%;
+    max-width: 307px;
+    min-height: 24px;
     gap: 10px;
 `
 export const LanguageTech = styled.div`
@@ -65,12 +73,6 @@ export const LanguageTech = styled.div`
     color: var(--grey-3);
 `
 
-export const ContainerTecnology = styled.div`
-    display: flex;
-    flex-direction: row;
-    width: 187px;
-    height: 24px;
-`
 export const ContainerLinks = styled.div`
     display: flex;
     flex-direction: row;

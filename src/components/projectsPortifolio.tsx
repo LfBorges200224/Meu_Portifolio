@@ -10,7 +10,7 @@ export const ProjectsPortifolio = () => {
             <ProjectContainer>
                 <HeadContainerProject>
                     <H3tipograpy>My Projects</H3tipograpy>
-                    <Headlinetipograpy>Projects created at Kenzie Academy</Headlinetipograpy>
+                    <Headlinetipograpy>Projects created at <span>Kenzie Academy</span></Headlinetipograpy>
                 </HeadContainerProject>
                 <UlcontainerProject>
                     <LiContainerProject>

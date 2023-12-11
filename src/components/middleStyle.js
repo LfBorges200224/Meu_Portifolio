@@ -13,13 +13,21 @@ export const MiddleMainContainer = styled.div`
     background-position: right;
     border-bottom: 8px #F8F9FA;
     flex-direction: row;
+    padding: 0 1rem;
+    @media(max-width: 668px){
+        background-color: #121214;
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
 `  
 
 export const MiddleContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 1039px;
+    width: 100%;
+    max-width: 1039px;
     height: 497px;
     gap: 40px;
 ` 
@@ -28,7 +36,8 @@ export const MiddleContainerContain = styled.div`
      display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 607px;
+    width: 100%;
+    max-width: 607px;
     height: 497.161px;
     gap: 22px;
     >h1>span{
@@ -37,11 +46,18 @@ export const MiddleContainerContain = styled.div`
 `
 export const ContainerPhoto = styled.div`
     display: inline-flex;
-    width: 437px;
+    width: 100%;
+    max-width: 437px;
     height: 68px;
     justify-content: space-between;
     align-items: center;
     gap: 32px;
+    @media (max-width: 668px){
+        height: 100%;
+        width: 100%;
+        overflow-x: auto;
+        scrollbar-color: transparent;
+    }
 `
 
 export const HeadLineContainer = styled.div`
@@ -49,7 +65,8 @@ export const HeadLineContainer = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 288px;
+    width: 100%;
+    max-width: 288px;
     height: 58px;
     img{
         width: 48px;
