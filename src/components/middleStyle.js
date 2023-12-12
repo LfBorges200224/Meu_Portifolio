@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import photo from "../assets/header-bg.png";
+import github from "../assets/Bt-Circle-github.png"
+import githubBlack from "../assets/githubblack.png"
 
 export const MiddleMainContainer = styled.div`
     display: flex;
@@ -83,6 +85,19 @@ export const ContainerButtonGithub = styled.div`
     width: 224px;
     height: 48px;
 `
+export const ContainerGitHubDiv = styled.div`
+    width: 48px;
+    height: 48px;
+    border-radius: 150px;
+    background-image: url(${githubBlack});
+    background-repeat: no-repeat;
+    border: 1px solid var(--grey-3);
+    &:hover{
+        background-image: url(${github});
+        transition: 0.5s;
+        border: 1px solid var(--grey-4);
+    }
+`
 
 export const ButtonMyGithub = styled.a`
     display: flex;
@@ -100,4 +115,8 @@ export const ButtonMyGithub = styled.a`
     font-weight: 500;
     line-height: normal;
     text-decoration: none;
+    &:hover{
+        background-color: var(--color-primary-50);
+        transition: 0.5s;
+    }
 ` 

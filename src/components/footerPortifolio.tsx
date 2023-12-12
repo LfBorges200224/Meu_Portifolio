@@ -1,9 +1,6 @@
 import React from "react";
-import linkedin from "../assets/linkedin.png"
-import instagram from "../assets/instagram.png"
-import facebook from "../assets/facebook.png"
 import { H3tipograpy, Headlinetipograpy } from "../styles/Tipograpy";
-import { FooterContainer, ContainerText, ContainerPhoto, Linktag, ContainerLinks} from "./footerStyle";
+import { FooterContainer, ContainerText, ContainerPhoto, Linktag, ContainerLinks, ContainerLinkDiv, ContainerInstaDiv, ContainerFaceDiv} from "./footerStyle";
 
 export const FooterPortifolio = () => {
     return(
@@ -17,13 +14,13 @@ export const FooterPortifolio = () => {
             </ContainerPhoto >
             <ContainerLinks>
                 <Linktag href="https://www.linkedin.com/in/luis-borges-a653001b6/" target="blank">
-                    <img src={linkedin}/>
+                    <ContainerLinkDiv></ContainerLinkDiv>
                 </Linktag>
                 <Linktag href="https://www.instagram.com/lud1s_" target="blank">
-                    <img src={instagram}/>
+                    <ContainerInstaDiv></ContainerInstaDiv>
                 </Linktag>
                 <Linktag href="https://www.facebook.com/profile.php?id=100010923947903" target="blank">
-                    <img src={facebook}/>
+                    <ContainerFaceDiv></ContainerFaceDiv>
                 </Linktag>
             </ContainerLinks>
         </FooterContainer>

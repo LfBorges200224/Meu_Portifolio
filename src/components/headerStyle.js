@@ -60,7 +60,11 @@ export const HeaderButtons = styled.a`
     font-family: IBM Plex Sans;
     font-size: 16px;
     font-weight: bold;
-    color: var(--grey-1);
+    color: #868E96;
     text-decoration: none;
     cursor: pointer;
+    &:hover{
+        color: var(--grey-1);
+        transition: 0.5s;
+    }
 `

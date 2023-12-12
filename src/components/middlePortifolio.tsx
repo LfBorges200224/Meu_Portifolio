@@ -1,7 +1,6 @@
 import React from "react"
 import { H1tipograpy, Headlinetipograpy} from "../styles/Tipograpy"
-import github from "../assets/Bt-Circle-github.png"
-import { MiddleMainContainer, HeadLineContainer, ButtonMyGithub, ContainerButtonGithub, MiddleContainer, MiddleContainerContain, ContainerPhoto} from "./middleStyle"
+import { MiddleMainContainer, HeadLineContainer, ButtonMyGithub, ContainerGitHubDiv, ContainerButtonGithub, MiddleContainer, MiddleContainerContain, ContainerPhoto} from "./middleStyle"
 import js from "../assets/js.png"
 import css from "../assets/css.png"
 import react from "../assets/react.png"
@@ -23,7 +22,9 @@ export const MiddlePortifolio = () =>{
                         <ButtonMyGithub href="https://github.com/PietroNog1" target="blank">
                             See My Projects
                         </ButtonMyGithub>
-                        <img src={github} />
+                        <ContainerGitHubDiv>
+
+                        </ContainerGitHubDiv>
                     </ContainerButtonGithub>
                 </MiddleContainerContain>
                     <ContainerPhoto>

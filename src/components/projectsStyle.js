@@ -29,6 +29,7 @@ export const ProjectContainer = styled.div`
     max-width: 1030px;
     min-height: 439px;
     gap: 22px;
+    padding-top: 40px; 
 `
 
 export const UlcontainerProject = styled.ul`
@@ -90,7 +91,11 @@ export const ContainerImageLinks = styled.div`
     gap: 10px;
     a{
         text-decoration: none;
-        color: var(--grey-1);
+        color: #868E96;
+        &:hover{
+            color: var(--grey-1);
+           transition:  0.5s;
+        }
     }
 `
 

@@ -66,6 +66,10 @@ export const ContainerForm = styled.div`
     gap: 20px;
     a{
         text-decoration: none;
-        color: var(--grey-1);
+        color: #868E96;
+        &:hover{
+            color: var(--grey-1);
+            transition:  1s;
+        }
     }
 `
